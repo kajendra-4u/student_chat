@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Chat - Pixel Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="main-box">
+            <h1 class="title">🎮 STUDENT CHAT</h1>
+            <p class="subtitle">Pixel Game Chat Room</p>
+
+            <div class="form-section">
+                <div class="input-group">
+                    <label for="username">USERNAME:</label>
+                    <input type="text" id="username" class="pixel-input" placeholder="Masukkan nama..." maxlength="15">
+                </div>
+
+                <div class="input-group">
+                    <label for="createRoomCode">BUAT KODE ROOM (5 KARAKTER):</label>
+                    <input type="text" id="createRoomCode" class="pixel-input" placeholder="Contoh: ABCD1" maxlength="5">
+                </div>
+
+                <button id="createRoomBtn" class="pixel-button">
+                    ✨ CREATE ROOM
+                </button>
+
+                <div class="divider">
+                    <span>OR</span>
+                </div>
+
+                <div class="input-group">
+                    <label for="joinRoomCode">KODE ROOM TEMAN:</label>
+                    <input type="text" id="joinRoomCode" class="pixel-input" placeholder="Masukkan kode..." maxlength="5">
+                </div>
+
+                <button id="joinRoomBtn" class="pixel-button secondary">
+                    🚀 JOIN ROOM
+                </button>
+            </div>
+
+            <div class="footer-info">
+                <p>💡 Room bersifat sementara</p>
+                <p>🔒 Chat akan hilang saat room kosong</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
