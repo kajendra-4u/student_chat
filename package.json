@@ -1,0 +1,16 @@
+{
+  "name": "student-chat",
+  "version": "1.0.0",
+  "description": "Website chat sederhana untuk pelajar dengan pixel game aesthetic",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["chat", "websocket", "student"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2"
+  }
+}
